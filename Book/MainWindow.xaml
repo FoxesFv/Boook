@@ -1,0 +1,20 @@
+﻿<Window x:Class="Book.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Book"
+        mc:Ignorable="d"
+        Title="MFUA task app" Height="350" Width="800" ResizeMode="NoResize">
+    <StackPanel>
+        <StackPanel.Background>
+            <RadialGradientBrush>
+                <GradientStop Color="#FFE7D7FF" Offset="1"/>
+                <GradientStop Color="#FFD9B3FF"/>
+            </RadialGradientBrush>
+        </StackPanel.Background>
+        <Frame x:Name="LoadFrame" NavigationUIVisibility="Hidden">
+
+        </Frame>
+    </StackPanel>
+</Window>
